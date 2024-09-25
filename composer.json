@@ -1,0 +1,37 @@
+{
+  "name": "plaisio/trusted-host-authority-core",
+  "description": "PhpPlaisio: Core Request",
+  "keywords": [
+    "PhpPlaisio",
+    "Trusted",
+    "Host",
+    "Authority",
+    "Core"
+  ],
+  "license": "MIT",
+  "require": {
+    "php": ">=8.1",
+    "plaisio/trusted-host-authority": "1.0.0"
+  },
+  "require-dev": {
+    "phing/phing": "^3.0.0",
+    "phpunit/phpunit": "^10.5.35"
+  },
+  "autoload": {
+    "psr-4": {
+      "Plaisio\\TrustedHostAuthority\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Plaisio\\TrustedHostAuthority\\Test\\": "test"
+    }
+  },
+  "config": {
+    "bin-dir": "bin/",
+    "sort-packages": true,
+    "allow-plugins": {
+      "phing/phing-composer-configurator": true
+    }
+  }
+}
