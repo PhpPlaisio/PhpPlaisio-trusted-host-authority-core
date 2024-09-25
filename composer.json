@@ -1,6 +1,6 @@
 {
   "name": "plaisio/trusted-host-authority-core",
-  "description": "PhpPlaisio: Core Request",
+  "description": "PhpPlaisio: Core Trusted Host Authority",
   "keywords": [
     "PhpPlaisio",
     "Trusted",
